@@ -1,7 +1,7 @@
 # Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project Part 2 : Module-24
 ### Detection And Prevention of Fradulent Phone Numbers
  
-**Module 24** This Capstone Module closes this Capstone Project with its relevant final solution and sumissions, executive summary included below.
+**Module 24** This Capstone Module closes this Final Capstone Project with its relevant complete solution and sumissions, executive summary included below.
 
 #### Capstone Reference from the prior modules
 **Module 6**  Drafting the Capstone Project Statment
@@ -22,7 +22,7 @@ Additional visualization techniques revealed that fraud was heavily concentrated
 
 The findings suggest that real-time detection models incorporating these insights can proactively block or verify high-risk registrations. Business recommendations include implementing dynamic fraud scoring during signup, flagging risky phone/IP patterns, and tightening SMS limits for VOIP numbers. This model-driven, data-informed approach provides a scalable foundation to enhance IAS security and defend against evolving fraud schemes.
 
-# Dataset
+# The Dataset
 
 The Dataset used for this project is from my own Organization. The data is Anonymized and de-identified though these words are often used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and they are tapping in for no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
 
@@ -33,16 +33,17 @@ The Dataset used here is one such containing the listings of many users and thei
 The original Dataset had a million rows. For keeping the Data size resonable for processing and based on the machine speeds and processing times involved the data size is curtailed to 50K and has 20 Columns.
 
 # How is the project work and deliverables being measured? - Measurement Criteria Table As Below for Module-20 Capstone
-<img width="655" height="610" alt="image" src="https://github.com/user-attachments/assets/aec19771-7abc-4701-8097-69c8d25fa86d" />
+<img width="799" height="690" alt="image" src="https://github.com/user-attachments/assets/95c7936e-46f9-4cda-a077-79553ffc84ea" />
+
 
 # Note about the Files, Folder and Dataset...
 
 -	The 🟢Code Folder will contain the Jupyter File.
 - The 🟢Data Folder would contain both the Input data file at the root sourced for processing and modeling. The Data folder will contain the subfolder named "FraudPhoneNumber" which will contain the post analysis data of
   fradulent phone numbers found.
-- The 🟢GraphPlots folder would contain 2 SubFolders - ⚪Supervised and ⚪Unsupervised. These subfolders will contain all the graphs for the respective models adopted in the project.
+- The 🟢GraphPlots folder would contain 2 SubFolders - The root folder comntains all the plots related with EDS (Exploratory Data Analysis) and two subfolders : ⚪Supervised and ⚪Unsupervised. These subfolders will contain all the graphs for the respective models adopted in the project.
 
-The Github place holder for this Project(Module-20) is 🟨 https://github.com/gurugrit/Capstone_UCB_MLAI_2025 🟨
+The Github place holder for this Project(Module-20) is 🟨 https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24 🟨
 
 Folder Structure Snapshot:
 
