@@ -1,20 +1,29 @@
-# Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project : Module-24
+# Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project Part 2 : Module-24
 ### Detection And Prevention of Fradulent Phone Numbers
  
-Module 16.1 Covered this Research Question: 
-"How can we detect and prevent fraudulent phone numbers used during user registration or profile updates (on organizations Identity Access Systems) to exploit SMS-based systems for monetary gain?"
-Module-20 Covered the Data Understanding and EDS (Exploratory Data Analysis) with plots
-Module-24 This submissions covers the entirety of the Capstone project with rest of the components of the project as detailed below.
+**Module 24** Coses this Capstone Project with its relevant final solution and sumissions, Executive summary included below.
 
-**Module 16** Capstone primary was a problem statement for the research project. 
-**Module 20** would delve into the Dataset and its understanding and building baseline model. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.
+Note: Prior Modules copverd the Capstone Project Part 1 Assignments.
+**Module 6**  Drafting the Capstone Project Statment
+**Module 16** About Finalizing the problem statement for the research project. 
+**Module 20** Delved into the Dataset and its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.
 
-**Module 24** of the cource will close this Capstone Project with its relevant final solution and sumissions.
+###Executive summary
+This project focuses on identifying and preventing fraudulent phone numbers used during user registration or profile updates in enterprise Identity Access Systems (IAS), particularly targeting abuse of SMS-based authentication and verification mechanisms. Fraudsters exploit these systems using tactics such as VOIP numbers, synthetic identities, excessive OTP requests, and geolocation spoofing for monetary gain or unauthorized access. We are using a De-Identified dataset of 50,000 records with user metadata, phone behavior, registration patterns, and verification attributes. Please note this is a curtailed metadata considering the processing speed of the machine being used.
+
+Using supervised machine learning we trained several models including Logistic Regression, Random Forest, XGBoost, and LightGBM. XGBoost delivered the best performance in terms of ROC-AUC, precision, and recall. SHAP analysis helped uncover key predictors such as the number of accounts tied to a phone number, OTP success rate, use of VOIP numbers, and IP-region mismatches. These features were consistently correlated with fraudulent behavior.
+
+In parallel, unsupervised models like Isolation Forest and One-Class SVM were applied to identify anomalies without requiring fraud labels. Isolation Forest effectively surfaced suspicious users whose behaviors aligned with known fraud signatures. A combined strategy was adopted where high-confidence frauds were defined as those flagged by both supervised and unsupervised models.
+
+Additional visualization techniques revealed that fraud was heavily concentrated among VOIP providers like Skype and Google Voice, and in certain geographic regions such as China, Nigeria, and Russia. Fraudulent users showed behavioral traits such as registering during odd hours, using unverified emails, and requesting multiple SMS verifications in a short time span.
+
+The findings suggest that real-time detection models incorporating these insights can proactively block or verify high-risk registrations. Business recommendations include implementing dynamic fraud scoring during signup, flagging risky phone/IP patterns, and tightening SMS limits for VOIP numbers. This model-driven, data-informed approach provides a scalable foundation to enhance IAS security and defend against evolving fraud schemes.
+
 # Dataset
 
-The Dataset used for this project is from my own Organization. The data is Anonymized and de-identified though these words are often used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Many of these phone numbers are fraudulent. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
+The Dataset used for this project is from my own Organization. The data is Anonymized and de-identified though these words are often used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and they are tapping in for no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
 
-The Dataset used here is one such containing the listings of many users and their phone numbers now de-identified and anonymized. This is for keeping the confidentiality of the data from compliance perspective.
+The Dataset used here is one such containing the listings of many users and their phone numbers now de-identified and anonymized. This is for keeping the confidentiality of the data from being spotted on the Organizational compliance radar.
 
 #### Datafile Name - 🟨 Fraud_PhoneAnSMS_Dataset.csv 🟨
 
