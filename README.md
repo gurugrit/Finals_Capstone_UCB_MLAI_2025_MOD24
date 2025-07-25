@@ -3,12 +3,14 @@
  
 **Module 24** This Capstone Module closes this Capstone Project with its relevant final solution and sumissions, executive summary included below.
 
-Note: Prior Modules copverd the Capstone Project Part 1 Assignments.
+#### Capstone Reference from the prior modules
 **Module 6**  Drafting the Capstone Project Statment
+
 **Module 16** About Finalizing the problem statement for the research project. 
+
 **Module 20** Delved into the Dataset and its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.
 
-###Executive summary
+### Executive summary
 
 This project focuses on identifying and preventing fraudulent phone numbers used during user registration or profile updates in enterprise Identity Access Systems (IAS), particularly targeting abuse of SMS-based authentication and verification mechanisms. Fraudsters exploit these systems using tactics such as VOIP numbers, synthetic identities, excessive OTP requests, and geolocation spoofing for monetary gain or unauthorized access. We are using a De-Identified dataset of 50,000 records with user metadata, phone behavior, registration patterns, and verification attributes. Please note this is a curtailed metadata considering the processing speed of the machine being used.
 
