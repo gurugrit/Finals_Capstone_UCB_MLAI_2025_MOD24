@@ -1,14 +1,5 @@
 # Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project Part 2 : Module-24
 ### Project On: Detection And Prevention of Fradulent Phone Numbers
- 
-**Module 24** This Capstone Module closes this Final Capstone Project with its relevant complete solution and sumissions, executive summary included below.
-
-#### Capstone Reference from the prior modules
-**Module 6**  Drafting the Capstone Project Statment
-
-**Module 16** About Finalizing the problem statement for the research project. 
-
-**Module 20** Delved into the Dataset and its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.
 
 ### Executive summary
 
@@ -21,6 +12,14 @@ In parallel, unsupervised models like Isolation Forest and One-Class SVM were ap
 Additional visualization techniques revealed that fraud was heavily concentrated among VOIP providers like Skype and Google Voice, and in certain geographic regions such as China, Nigeria, and Russia. Fraudulent users showed behavioral traits such as registering during odd hours, using unverified emails, and requesting multiple SMS verifications in a short time span.
 
 The findings suggest that real-time detection models incorporating these insights can proactively block or verify high-risk registrations. Business recommendations include implementing dynamic fraud scoring during signup, flagging risky phone/IP patterns, and tightening SMS limits for VOIP numbers. This model-driven, data-informed approach provides a scalable foundation to enhance IAS security and defend against evolving fraud schemes.
+
+#### Capstone Reference from the prior modules
+**Module 6**  Drafting the Capstone Project Statment
+
+**Module 16** About Finalizing the problem statement for the research project. 
+
+**Module 20** Delved into the Dataset and its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.
+              https://github.com/gurugrit/Capstone_UCB_MLAI_2025
 
 # The Dataset
 
