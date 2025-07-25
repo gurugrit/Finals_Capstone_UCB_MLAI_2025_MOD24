@@ -1,7 +1,7 @@
 # Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project Part 2 : Module-24
 ### Project On: Detection And Prevention of Fradulent Phone Numbers
 
-### Executive summary
+### 🟢 Executive summary
 
 This project focuses on identifying and preventing fraudulent phone numbers used during user registration or profile updates in enterprise Identity Access Systems (IAS), particularly targeting abuse of SMS-based authentication and verification mechanisms. Fraudsters exploit these systems using tactics such as VOIP numbers, synthetic identities, excessive OTP requests, and geolocation spoofing for monetary gain or unauthorized access. We are using a De-Identified dataset of 50,000 records with user metadata, phone behavior, registration patterns, and verification attributes. Please note this is a curtailed metadata considering the processing speed of the machine being used.
 
@@ -14,15 +14,15 @@ Additional visualization techniques revealed that fraud was heavily concentrated
 The findings suggest that real-time detection models incorporating these insights can proactively block or verify high-risk registrations. Business recommendations include implementing dynamic fraud scoring during signup, flagging risky phone/IP patterns, and tightening SMS limits for VOIP numbers. This model-driven, data-informed approach provides a scalable foundation to enhance IAS security and defend against evolving fraud schemes.
 
 #### Capstone Reference from the prior modules
-**Module 6**  Drafting the Capstone Project Statment
+▶️**Module 6**  Drafting the Capstone Project Statment
 
-**Module 16** About Finalizing the problem statement for the research project. 
+▶️**Module 16** About Finalizing the problem statement for the research project. 
 
-**Module 20** Delved into the Dataset and its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.        https://github.com/gurugrit/Capstone_UCB_MLAI_2025
+▶️**Module 20** Delved into the Dataset and its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily used to analyze and build surrounding ML/AI Models which would help us in our predictions.        https://github.com/gurugrit/Capstone_UCB_MLAI_2025
 
 # The Dataset
 
-The Dataset used for this project is from my own Organization. The data is Anonymized and de-identified though these words are often used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and they are tapping in for no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
+The Dataset used for this project is from my own Organization. The data is Anonymized and De-identified though these words are sometimes used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and the users behind have no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
 
 The Dataset used here is one such containing the listings of many users and their phone numbers now de-identified and anonymized. This is for keeping the confidentiality of the data from being spotted on the Organizational compliance radar.
 
