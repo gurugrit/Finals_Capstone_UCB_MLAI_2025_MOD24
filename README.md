@@ -1,7 +1,7 @@
 # Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project Part 2 : Module-24
 ### Detection And Prevention of Fradulent Phone Numbers
  
-**Module 24** Coses this Capstone Project with its relevant final solution and sumissions, Executive summary included below.
+**Module 24** This Capstone Module closes this Capstone Project with its relevant final solution and sumissions, executive summary included below.
 
 Note: Prior Modules copverd the Capstone Project Part 1 Assignments.
 **Module 6**  Drafting the Capstone Project Statment
