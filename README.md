@@ -192,8 +192,8 @@ indicating a high true positive rate and a low false positive rate; the larger t
 ### 🟧Prediction Plots Before tuning
    1. [Isolation Forest Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Isolation%20Forest_Anomaly_Prediction_Cnt.png) 
    2. [One Class SVM Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/One-Class%20SVM_Anomaly_Prediction_Cnt.png)
-   3. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF%20Anomaly_Pred.png)
-   4. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Pred.png)
+   3. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF_Anomaly_Prediction_Cnt.png)
+   4. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Prediction_Cnt.png)
     
 ## 🟪Models After Tuning - ROC Curve
 This ROC curve plot shows how well different unsupervised anomaly detection models perform after hyperparameter tuning. The curves compare models by plotting their True Positive Rate (TPR) vs. False Positive Rate (FPR), and the Area Under the Curve (AUC) metric summarizes their corresponding effectiveness.
@@ -207,6 +207,8 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
 - ✅LOF (Local Outlier Factor) fails to improve and remains near random classification (AUC ≈ 0.5). It likely needs a re-evaluation or different feature engineering.
 - ✅KMeans continues to show stable performance with AUC = 0.80, solid for a clustering-based method without much tuning gain.
 
-## 8. Prediction Plots
+### ⬜Prediction Plots After Tuning
 
+   1. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF%20Anomaly_Pred.png)
+   2. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Pred.png)
 
