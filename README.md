@@ -183,8 +183,8 @@ https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphP
 
 ## 6. Supervised Model Validation Summaries and Conclusion on the Best Model
 
-### 🟡Logistic Regression Confusion Matrix
-
+### 🟡a. Logistic Regression Confusion Matrix
+Reading the table...and repeating the same for the rest of the Models below
 - True Negatives : 9743
 - False Positives: 71
 - False Negatives: 100
@@ -192,29 +192,29 @@ https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphP
 
 <img src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" alt="image" width="550"/>
 
-From the above tables we can conclude that...
+From the above table we can conclude that...
 - Extremely high accuracy, precision, recall, and F1-scores.
 - Balanced performance across both classes.
 - Very few false positives/negatives.
 - The dataset is also likely well-separated.
 
- ### 🟡Random Forest Confusion Matrix
+ ### 🟡b. Random Forest Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="550"/>
 
-### 🟡XGBoost Confusion Matrix
+### 🟡c. XGBoost Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" alt="image" width="550"/>
 
-### 🟡LightGBM Confusion Matrix
+### 🟡d. LightGBM Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" alt="image" width="550"/>
 
-### 🟡KNN Confusion Matrix
+### 🟡e. KNN Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" alt="image" width="550"/>
 
-### 🟡Naive Bayes Confusion Matrix
+### 🟡f. Naive Bayes Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" alt="image" width="550"/>
 
