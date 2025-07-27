@@ -209,6 +209,57 @@ The findings suggest that real-time detection models incorporating these insight
     </td>
   </tr>
 </table>
+
+
+
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="width: 33%; vertical-align: top; padding: 10px;">
+      📌 <a href="#1-business-understanding-and-objective">1. Business Understanding and Objective</a>
+    </td>
+    <td style="width: 33%; vertical-align: top; padding: 10px;">
+      📌 <a href="#2-data-understanding">2. Data Understanding</a>
+    </td>
+    <td style="width: 33%; vertical-align: top; padding: 10px;">
+      📌 <a href="#3-data-preparation">3. Data Preparation</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#4-modeling-supervised-and-unsupervised-models-used">4. Modeling: Supervised and Unsupervised Models Used</a>
+    </td>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#5-exploratory-data-analysis">5. Exploratory Data Analysis (Data Visualizations)</a>
+    </td>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#6-supervised-model-validation-summaries-and-conclusion-on-the-best-model">6. Supervised Model Validation Summary</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#7-unsupervised-model-validation-summaries-and-conclusion-on-the-best-model">7. Unsupervised Model Validation Summary</a>
+    </td>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#8-plotting-the-fraudulent-entities-visuals-are-self-explanatory">8. Plotting the Fraudulent Entities</a>
+    </td>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#9-shap-plots">9. SHAP Plots</a>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#10-fraudulent-phone-report">10. What Are the Fraudulent Phone Numbers?</a>
+    </td>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#11-final-conclusion-and-summary-of-this-capstone-project-work">11. Final Conclusion and Summary</a>
+    </td>
+    <td style="vertical-align: top; padding: 10px;">
+      📌 <a href="#12-recommendations">12. Recommendations</a>
+    </td>
+  </tr>
+</table>
+
 The Dataset used for this project is from my own Organization. The data is Anonymized and De-identified though these words are sometimes used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and the users behind have no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
 
 The Dataset used here is one such containing the listings of many users and their phone numbers now de-identified and anonymized. This is for keeping the confidentiality of the data from being spotted on the Organizational compliance radar.
