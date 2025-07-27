@@ -165,22 +165,23 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 <img width="477" height="246" alt="image" src="https://github.com/user-attachments/assets/33dfb161-d362-47fa-8e4c-113ab60a89c3" />
 
 
-➡️ **Distribution of Key Numeric Features**
+
+➡️ **1) Distribution of Key Numeric Features**
 <img width="1374" height="891" alt="image" src="https://github.com/user-attachments/assets/645fc0c6-d98e-41f5-8976-71fa47875be7" />
 
-➡️ **Violin Plots of Numeric Features by Fraud Label**
+➡️ **2) Violin Plots of Numeric Features by Fraud Label**
 <img width="1301" height="921" alt="image" src="https://github.com/user-attachments/assets/5bc10e60-b662-4857-87fd-af8c32de1941" />
 
-➡️ **Kernel Density Estimate(KDE) Distributions of Features by Fraud Status**
+➡️ **3) Kernel Density Estimate(KDE) Distributions of Features by Fraud Status**
 <img width="1303" height="923" alt="image" src="https://github.com/user-attachments/assets/ed1afacf-be55-422a-b4fd-94f0c5b9cee8" />
 
-➡️ **Violin Plots by Geo Region**
+➡️ **4) Violin Plots by Geo Region**
 <img width="1304" height="923" alt="image" src="https://github.com/user-attachments/assets/24c14b87-c41d-4c82-abe0-05dba2af1a18" />
 
-➡️ **Violin Plots by Device (ios, web, android) Type**
+➡️ **5) Violin Plots by Device (ios, web, android) Type**
 <img width="1840" height="898" alt="image" src="https://github.com/user-attachments/assets/d88e8e89-3b95-4aaa-9a54-2f60e9140f65"/>
 
-➡️ **Bar Plots by Provider Distribution (Google, skype, Twilio) Type**
+➡️ **6) Bar Plots by Provider Distribution (Google, skype, Twilio) Type**
 <img width="1840" height="898" alt="image" src="https://github.com/user-attachments/assets/1a4e87d1-8db7-44e9-a6b7-5799675435da" />
 
 ## 6. Supervised Model Validation Summaries and Conclusion on the Best Model
