@@ -174,7 +174,7 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 <img width="1304" height="923" alt="image" src="https://github.com/user-attachments/assets/24c14b87-c41d-4c82-abe0-05dba2af1a18" />
 
 ➡️ **Violin Plots by Device (ios, web, android) Type**
-<img src="https://github.com/user-attachments/assets/d88e8e89-3b95-4aaa-9a54-2f60e9140f65" alt="image" width="650"/>
+<img width="1840" height="898" alt="image" src="https://github.com/user-attachments/assets/d88e8e89-3b95-4aaa-9a54-2f60e9140f65"/>
 
 ➡️ **Bar Plots by Provider Distribution (Google, skype, Twilio) Type**
 <img width="1840" height="898" alt="image" src="https://github.com/user-attachments/assets/1a4e87d1-8db7-44e9-a6b7-5799675435da" />
@@ -200,7 +200,7 @@ From the above tables we can conclude that...
 
  ### 🟡Random Forest Confusion Matrix
 
-<img width="1179" height="902" alt="image" src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" />
+<src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="650"/>
 
 ### 🟡XGBoost Confusion Matrix
 
