@@ -193,7 +193,7 @@ indicating a high true positive rate and a low false positive rate; the larger t
 This ROC curve plot shows how well different unsupervised anomaly detection models perform after hyperparameter tuning. The curves compare models by plotting their True Positive Rate (TPR) vs. False Positive Rate (FPR), and the Area Under the Curve (AUC) metric summarizes their corresponding effectiveness.
 <img width="1232" height="717" alt="image" src="https://github.com/user-attachments/assets/b5ec806f-849c-47aa-95b5-b2ef1a593ba2" />
 
-## 🔍The Comparisons...
+## 🔍Before and After Tuning comparisons...
 <img width="567" height="169" alt="image" src="https://github.com/user-attachments/assets/c6cbb597-1d27-42cd-b13e-499edc0a2c34" />
 
 
