@@ -164,6 +164,7 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 
 <img width="477" height="246" alt="image" src="https://github.com/user-attachments/assets/33dfb161-d362-47fa-8e4c-113ab60a89c3" />
 
+
 ➡️ **Distribution of Key Numeric Features**
 <img width="1374" height="891" alt="image" src="https://github.com/user-attachments/assets/645fc0c6-d98e-41f5-8976-71fa47875be7" />
 
