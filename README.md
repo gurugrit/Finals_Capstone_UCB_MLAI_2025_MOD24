@@ -20,19 +20,7 @@ The findings suggest that real-time detection models incorporating these insight
 
 🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily be used to analyze and build surrounding ML/AI Models which would help us in our predictions.        https://github.com/gurugrit/Capstone_UCB_MLAI_2025
 
-### 🟢 The Numbered Sections of these report
-📌 1. Business Understanding and Objective  
-📌 2. Data Understanding
-📌 3. Data Preparation
-📌 4. Modeling : Supervised and Unsupervised Models Used
-📌 5. Exploratory Data Analysis
-📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model
-📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model 
-📌 8. Plotting the Fradulent Entities (Visuals are Self-Explanatory) 
-📌 9. SHAP Plots 
-📌 10. Fraudulant Phone Report 
-📌 11. Final Conclusion and Summary of this Capstone Project Work  
-📌 12. Recommendations
+### 🟢 The Numbered Key Sections From This Report
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #e6f7ff;">
