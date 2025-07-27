@@ -187,7 +187,9 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 ## 6. Supervised Model Validation Summaries and Conclusion on the Best Model
 
 ### 🟡a. Logistic Regression Confusion Matrix
-Reading the table...and repeating the same for the rest of the Models below
+
+Reading the table...and repeating the same for the rest of the Models below from (b) to (f)
+
 - True Negatives : 9743
 - False Positives: 71
 - False Negatives: 100
