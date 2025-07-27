@@ -21,25 +21,59 @@ The findings suggest that real-time detection models incorporating these insight
 🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily be used to analyze and build surrounding ML/AI Models which would help us in our predictions.        https://github.com/gurugrit/Capstone_UCB_MLAI_2025
 
 ### 🟢 The Numbered Sections of these report
-- 📌 1. Business Understanding and Objective  
-- 📌 2. Data Understanding
-- 📌 3. Data Preparation
-- 📌 4. Modeling : Supervised and Unsupervised Models Used
-- 📌 5. Exploratory Data Analysis
-- 📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model
-📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model 📌 8. Plotting the Fradulent Entities (Visuals are Self-Explanatory) 📌 9. SHAP Plots 📌 10. Fraudulant Phone Report 📌 11. Final Conclusion and Summary of this Capstone Project Work  📌 12. Recommendations
-
+📌 1. Business Understanding and Objective  
+📌 2. Data Understanding
+📌 3. Data Preparation
+📌 4. Modeling : Supervised and Unsupervised Models Used
+📌 5. Exploratory Data Analysis
+📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model
+📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model 
+📌 8. Plotting the Fradulent Entities (Visuals are Self-Explanatory) 
+📌 9. SHAP Plots 
+📌 10. Fraudulant Phone Report 
+📌 11. Final Conclusion and Summary of this Capstone Project Work  
+📌 12. Recommendations
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
+    <td>📌 1. Business Understanding and Objective</td>
+    <td>📌 2. Data Understanding</td>
+    <td>📌 3. Data Preparation</td>
+    <td>📌 4. Modeling: Supervised and Unsupervised Models Used</td>
+  </tr>
+  <tr>
+    <td>📌 5. Exploratory Data Analysis</td>
+    <td>📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model</td>
     <td>📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model</td>
     <td>📌 8. Plotting the Fraudulent Entities (Visuals are Self-Explanatory)</td>
   </tr>
   <tr>
-    <td>📌 9. SHAP-based Feature Insights</td>
-    <td>📌 10. Recommendations & Future Enhancements</td>
+    <td>📌 9. SHAP Plots</td>
+    <td>📌 10. Fraudulent Phone Report</td>
+    <td>📌 11. Final Conclusion and Summary of this Capstone Project Work</td>
+    <td>📌 12. Recommendations</td>
   </tr>
 </table>
-# The Dataset
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr style="background-color: #e6f7ff;">
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 1. Business Understanding and Objective</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 2. Data Understanding</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 3. Data Preparation</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 4. Modeling: Supervised and Unsupervised Models Used</td>
+  </tr>
+  <tr style="background-color: #f0fff0;">
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 5. Exploratory Data Analysis</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 8. Plotting the Fraudulent Entities (Visuals are Self-Explanatory)</td>
+  </tr>
+  <tr style="background-color: #fff9e6;">
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 9. SHAP Plots</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 10. Fraudulent Phone Report</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 11. Final Conclusion and Summary of this Capstone Project Work</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 12. Recommendations</td>
+  </tr>
+</table>
 
 The Dataset used for this project is from my own Organization. The data is Anonymized and De-identified though these words are sometimes used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and the users behind have no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
 
