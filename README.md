@@ -130,14 +130,14 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 
 ## 6. Model Validation Summaries
 
-### Logistic Regression Confusion Matrix
+🟡### Logistic Regression Confusion Matrix
 
 - True Negatives : 9743
 - False Positives: 71
 - False Negatives: 100
 - True Positives : 5086
 
-<img width="413" height="284" alt="image" src="https://github.com/user-attachments/assets/03113595-ea10-4d8c-9442-a4a6e82b6320" />
+<img width="1175" height="901" alt="image" src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" />
 
 From the above tables we can conclude that...
 - Extremely high accuracy, precision, recall, and F1-scores.
@@ -145,13 +145,38 @@ From the above tables we can conclude that...
 - Very few false positives/negatives.
 - The dataset is also likely well-separated.
 
-## ROC Curve Comparison:
+🟡 ### Random Forest Confusion Matrix
+
+<img width="1179" height="902" alt="image" src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" />
+
+🟡 ### XGBoost Confusion Matrix
+
+<img width="1181" height="907" alt="image" src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" />
+
+🟡 ### LightGBM Confusion Matrix
+
+<img width="1182" height="902" alt="image" src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" />
+
+🟡 ### KNN Confusion Matrix
+
+<img width="1170" height="899" alt="image" src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" />
+
+🟡 ### Naive Bayes Confusion Matrix
+
+<img width="1183" height="906" alt="image" src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" />
+
+## ROC Curve Model Comparisons:
 The overall performance of a classifier, summarized over all possible classification thresholds, is given by the area under the ROC curve. An ideal ROC curve will hug the top left corner, 
 indicating a high true positive rate and a low false positive rate; the larger the AUC( Area Under) the better the classifier.
 
-While writing this readme. I had evaluated all the models I had planned to use, the ROC Curve for which is depicted below. This is also to baseline this along with the Baseline model it was being evaluated against.
+<img width="1537" height="908" alt="image" src="https://github.com/user-attachments/assets/d0f45b9f-577b-488d-b648-db9b6f234ac4" />
 
-<img width="1051" height="627" alt="image" src="https://github.com/user-attachments/assets/11486151-4cbd-4b49-b967-7e963fe08d08" />
+## Feature Importance - Model Comparisons:
+<img width="1911" height="753" alt="image" src="https://github.com/user-attachments/assets/bd8f2bb4-b325-4680-8982-64fd87b8ac58" />
+
+## Model Performance Plot
+<img width="1537" height="903" alt="image" src="https://github.com/user-attachments/assets/a5132b5c-9124-436d-8f85-01455a87a6c1" />
+
 
 ## 🟢 Further work Related with this Project Continues with Module 24 
 
