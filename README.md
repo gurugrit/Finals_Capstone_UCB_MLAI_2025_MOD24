@@ -237,7 +237,7 @@ From the above table we can conclude that...
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2"  alt="image1" width="45%" style="display:inline-block;"/>
-<img src=src="https://github.com/user-attachments/assets/f8fcd9b5-e5ea-485f-92a7-d68974386153"  alt="image1" width="45%" style="display:inline-block;"/>
+<img src="https://github.com/user-attachments/assets/f8fcd9b5-e5ea-485f-92a7-d68974386153"  alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
 **_From the above table we can conclude that..._**
@@ -249,7 +249,7 @@ From the above table we can conclude that...
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d"  alt="image1" width="45%" style="display:inline-block;"/>
-<img src=src="https://github.com/user-attachments/assets/50e50d1e-1aa1-4eb1-85c6-aeb7322404b1"  alt="image1" width="45%" style="display:inline-block;"/>
+<img src="https://github.com/user-attachments/assets/50e50d1e-1aa1-4eb1-85c6-aeb7322404b1"  alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
 **_From the above table we can conclude that..._**
@@ -262,7 +262,7 @@ From the above table we can conclude that...
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" alt="image1" width="45%" style="display:inline-block;"/>
-<img src=src="https://github.com/user-attachments/assets/ca899df5-b70e-43c3-b15e-67953a00838c" alt="image1" width="45%" style="display:inline-block;"/>    
+<img src="https://github.com/user-attachments/assets/ca899df5-b70e-43c3-b15e-67953a00838c" alt="image1" width="45%" style="display:inline-block;"/>    
 </p>
 
 **_From the above table we can conclude that..._**
