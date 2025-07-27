@@ -102,7 +102,7 @@ The Github place holder for this Project(Module-20) is 🟨 https://github.com/g
 
 Folder Structure Snapshot:
 
-<img width="430" height="264" alt="image" src="https://github.com/user-attachments/assets/b3cf96bd-8e84-4472-bc40-1f082799a747" />
+<img width="337" height="191" alt="image" src="https://github.com/user-attachments/assets/341a79ba-ea8f-4c8f-9841-7d8ad278bf6f" />
 
 # 🟩 Phases of this Project
 ## 1. Business Understanding and Objective
