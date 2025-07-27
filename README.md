@@ -13,7 +13,7 @@ Additional visualization techniques revealed that fraud was heavily concentrated
 
 The findings suggest that real-time detection models incorporating these insights can proactively block or verify high-risk registrations. Business recommendations include implementing dynamic fraud scoring during signup, flagging risky phone/IP patterns, and tightening SMS limits for VOIP numbers. This model-driven, data-informed approach provides a scalable foundation to enhance IAS security and defend against evolving fraud schemes.
 
-#### Capstone Reference from the prior modules
+#### Capstone Reference from the prior modules in this course work...
 🟡 **Module 6**  Drafting the Capstone Project Statment
 
 🟡 **Module 16** About Finalizing the problem statement for the research project. 
