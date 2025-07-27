@@ -32,7 +32,8 @@ Models like XGBoost and Random Forest handle class imbalance well (using scale_p
 For model training (especially for SHAP, unsupervised learning, visualizations), having that kind of percetages of fraud gives:
 🔺Enough examples to learn patterns 🔺Better visual and statistical separation 🔺Richer evaluation of precision-recall trade-offs
 
-#### Datafile Name - 🟨 Fraud_PhoneAnSMS_Dataset.csv 🟨 The organization of the Folder structure in Git is as depicted below.
+#### Datafile Name - 🟨 Fraud_PhoneAnSMS_Dataset.csv 🟨 
+The organization of the Folder structure in Git is as depicted below in the Files Folder Section of this Readme.
 
 The original Dataset had a million rows. For keeping the Data size resonable for processing and based on the machine speeds and processing times involved the data size is curtailed to 50K and has 20 Columns.
 
