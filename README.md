@@ -184,10 +184,13 @@ indicating a high true positive rate and a low false positive rate; the larger t
 <img width="362" height="146" alt="image" src="https://github.com/user-attachments/assets/8c3d02e5-dd3f-4f98-b57f-a168f4f5c110" />
 
 ## 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model
-## 🟪Models Before Tuning - ROC Curve
+## 🟪Models Before Tuning - ROC Curve and Anomaly Distributions
 <img width="1526" height="904" alt="image" src="https://github.com/user-attachments/assets/e89ffd64-37e4-4abd-ac64-ae1d3098e0b9" />
 
 <img width="479" height="187" alt="image" src="https://github.com/user-attachments/assets/6a19717d-c1d0-4aaf-9fe5-d8b91a88c25d" />
+
+
+[Isolation Forest Anomaly Prediction] (https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Isolation%20Forest_Anomaly_Prediction_Cnt.png)
 
 ## 🟪Models After Tuning - ROC Curve
 This ROC curve plot shows how well different unsupervised anomaly detection models perform after hyperparameter tuning. The curves compare models by plotting their True Positive Rate (TPR) vs. False Positive Rate (FPR), and the Area Under the Curve (AUC) metric summarizes their corresponding effectiveness.
@@ -201,5 +204,6 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
 - ✅LOF (Local Outlier Factor) fails to improve and remains near random classification (AUC ≈ 0.5). It likely needs a re-evaluation or different feature engineering.
 - ✅KMeans continues to show stable performance with AUC = 0.80, solid for a clustering-based method without much tuning gain.
 
+## 8. Prediction Plots
 
 
