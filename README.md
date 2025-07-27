@@ -213,27 +213,41 @@ From the above table we can conclude that...
 <img src="https://github.com/user-attachments/assets/806f865a-1402-4eff-a787-fda1c4f8707c" alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
-- The model achieved perfect accuracy, precision, recall, and F1-scores (1.00) across both classes
-- Exceptionally balanced performance between class 0 (non-fraud) and class 1 (fraud), with no observed bias
-- No false positives or false negatives on the training set — the model classified all samples correctly
-- The dataset is likely very well-separated in feature space, allowing Random Forest to fit it flawlessly
-- However, such perfect scores on training data may also indicate potential overfitting, especially if test performance is lower
+From the above table we can conclude that...
+- Perfect accuracy, precision, recall, and F1-scores (1.00) across both classes
+- Exceptionally balanced performance between class 0 (non-fraud) and class 1 (fraud) no observed bias
+- No false positives or false negatives on the training set and  the model classified all samples correctly
+- The dataset is likely very well-separated in feature space allowing Random Forest to fit it flawlessly
+- Perfect scores on training data may also indicate potential overfitting, especially if test performance is lower
 
 ### 🟡c. XGBoost Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" alt="image" width="550"/>
+<img src="https://github.com/user-attachments/assets/6173ac9a-2b33-415b-9f65-52912b915d0f" alt="image" width="550"/>
+
+From the above table we can conclude that...
+- Perfect performance across all metrics and both classes
+- Indicates zero classification errors on training data
+- Reflects excellent class separability
+- Like Random Forest, this may signal overfitting — test performance must be compared
 
 ### 🟡d. LightGBM Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" alt="image" width="550"/>
 
+From the above table we can conclude that...
+
 ### 🟡e. KNN Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" alt="image" width="550"/>
 
+From the above table we can conclude that...
+
 ### 🟡f. Naive Bayes Confusion Matrix
 
 <img src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" alt="image" width="550"/>
+
+From the above table we can conclude that...
 
 ## ROC Curve Model Comparisons:
 The overall performance of a classifier, summarized over all possible classification thresholds, is given by the area under the ROC curve. An ideal ROC curve will hug the top left corner, 
