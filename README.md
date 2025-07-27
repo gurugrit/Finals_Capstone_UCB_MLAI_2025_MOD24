@@ -199,6 +199,10 @@ Reading the table as below and repeating the same for the rest of the Models b. 
 
 <img src="https://github.com/user-attachments/assets/511dfea3-8bba-49b3-b9ea-dc3976077dc4" alt="image" width="550"/>
     
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" alt="image1" width="45%" style="display:inline-block;"/>
+  <img src="https://github.com/user-attachments/assets/511dfea3-8bba-49b3-b9ea-dc3976077dc4" alt="image2" width="45%" style="display:inline-block;"/>
+</p>
 
 From the above table we can conclude that...
 - Extremely high accuracy, precision, recall, and F1-scores.
