@@ -200,11 +200,11 @@ From the above tables we can conclude that...
 
  ### 🟡Random Forest Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="650"/>
+<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="450"/>
 
 ### 🟡XGBoost Confusion Matrix
 
-<img width="1181" height="907" alt="image" src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" />
+<img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" alt="image" width="450"/>
 
 ### 🟡LightGBM Confusion Matrix
 
