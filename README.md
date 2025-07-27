@@ -196,10 +196,10 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
 ## 🔍Before and After Tuning comparisons...
 <img width="567" height="169" alt="image" src="https://github.com/user-attachments/assets/c6cbb597-1d27-42cd-b13e-499edc0a2c34" />
 
-✅Isolation Forest remains the best model, improving its AUC to 0.83. It continues to show strong anomaly detection performance.
-✅One-Class SVM benefits noticeably from tuning (AUC improved from 0.70 to 0.74), though still not outperforming the tree-based or clustering models.
-✅LOF (Local Outlier Factor) fails to improve and remains near random classification (AUC ≈ 0.5). It likely needs a re-evaluation or different feature engineering.
-✅KMeans continues to show stable performance with AUC = 0.80, solid for a clustering-based method without much tuning gain.
+- ✅Isolation Forest remains the best model, improving its AUC to 0.83. It continues to show strong anomaly detection performance.
+- ✅One-Class SVM benefits noticeably from tuning (AUC improved from 0.70 to 0.74), though still not outperforming the tree-based or clustering models.
+- ✅LOF (Local Outlier Factor) fails to improve and remains near random classification (AUC ≈ 0.5). It likely needs a re-evaluation or different feature engineering.
+- ✅KMeans continues to show stable performance with AUC = 0.80, solid for a clustering-based method without much tuning gain.
 
 
 
