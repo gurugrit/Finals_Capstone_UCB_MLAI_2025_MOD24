@@ -20,7 +20,7 @@ The findings suggest that real-time detection models incorporating these insight
 
 🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily be used to analyze and build surrounding ML/AI Models which would help us in our predictions.        https://github.com/gurugrit/Capstone_UCB_MLAI_2025
 
-### 🟢 The Key Phases Captured in this Report
+### 🟢 The Key Phases Captured in this Report:
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -69,19 +69,19 @@ The findings suggest that real-time detection models incorporating these insight
   </tr>
 </table>
 
-### 🟢 A note about the Dataset
+### 🟢 A note about the Dataset:
 
 The Dataset used for this project is from my own Organization. The data is Anonymized and De-identified though these words are sometimes used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and the users behind have no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
 
 The Dataset used here is one such containing the listings of many users and their phone numbers now de-identified and anonymized. This is for keeping the confidentiality of the data from being spotted on the Organizational compliance radar.
 
-### Imabalanced and Balanced Dataset. Do We Need to have Balanced Data?
+#### Imbalanced and Balanced Dataset. Do We Need to have Balanced Data?
 The dataset has 30-35% fraud – it’s not extremely imbalanced.
 Models like XGBoost and Random Forest handle class imbalance well (using scale_pos_weight).
 For model training (especially for SHAP, unsupervised learning, visualizations), having that kind of percetages of fraud gives:
 🔺Enough examples to learn patterns 🔺Better visual and statistical separation 🔺Richer evaluation of precision-recall trade-offs
 
-#### Datafile Name - 🟨 Fraud_PhoneAnSMS_Dataset.csv 🟨 
+#### Datafile Name - 🟨 Fraud_PhoneAnSMS_Dataset.csv 🟨 [Input Data File Location](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Data/Fraud_PhoneAnSMS_Dataset.csv) 
 The organization of the Folder structure in Git is as depicted below in the Files Folder Section of this Readme.
 
 The original Dataset had a million rows. For keeping the Data size resonable for processing and based on the machine speeds and processing times involved the data size is curtailed to 50K and has 20 Columns.
