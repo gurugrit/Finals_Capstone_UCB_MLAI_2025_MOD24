@@ -33,45 +33,49 @@ The findings suggest that real-time detection models incorporating these insight
 📌 10. Fraudulant Phone Report 
 📌 11. Final Conclusion and Summary of this Capstone Project Work  
 📌 12. Recommendations
-<table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <td>📌 1. Business Understanding and Objective</td>
-    <td>📌 2. Data Understanding</td>
-    <td>📌 3. Data Preparation</td>
-    <td>📌 4. Modeling: Supervised and Unsupervised Models Used</td>
-  </tr>
-  <tr>
-    <td>📌 5. Exploratory Data Analysis</td>
-    <td>📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model</td>
-    <td>📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model</td>
-    <td>📌 8. Plotting the Fraudulent Entities (Visuals are Self-Explanatory)</td>
-  </tr>
-  <tr>
-    <td>📌 9. SHAP Plots</td>
-    <td>📌 10. Fraudulent Phone Report</td>
-    <td>📌 11. Final Conclusion and Summary of this Capstone Project Work</td>
-    <td>📌 12. Recommendations</td>
-  </tr>
-</table>
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr style="background-color: #e6f7ff;">
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 1. Business Understanding and Objective</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 2. Data Understanding</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 3. Data Preparation</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 4. Modeling: Supervised and Unsupervised Models Used</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#1-business-understanding-and-objective">1. Business Understanding and Objective</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#2-data-understanding">2. Data Understanding</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#3-data-preparation">3. Data Preparation</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#4-modeling-supervised-and-unsupervised-models-used">4. Modeling: Supervised and Unsupervised Models Used</a>
+    </td>
   </tr>
   <tr style="background-color: #f0fff0;">
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 5. Exploratory Data Analysis</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 8. Plotting the Fraudulent Entities (Visuals are Self-Explanatory)</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#5-exploratory-data-analysis">5. Exploratory Data Analysis (Data Visualizations)</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#6-supervised-model-validation-summaries-and-conclusion-on-the-best-model">6. Supervised Model Validation Summaries and Conclusion on the Best Model</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#7-unsupervised-model-validation-summaries-and-conclusion-on-the-best-model">7. Unsupervised Model Validation Summaries and Conclusion on the Best Model</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#8-plotting-the-fraudulent-entities-visuals-are-self-explanatory">8. Plotting the Fradulent Entities (Visuals are Self-Explanatory)</a>
+    </td>
   </tr>
   <tr style="background-color: #fff9e6;">
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 9. SHAP Plots</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 10. Fraudulent Phone Report</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 11. Final Conclusion and Summary of this Capstone Project Work</td>
-    <td style="border: 1px solid #b3d8ff; padding: 10px;">📌 12. Recommendations</td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#9-shap-plots">9. SHAP Plots</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#10-fraudulent-phone-report">10. What are the Faudulent Phone Numbers?</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#11-final-conclusion-and-summary-of-this-capstone-project-work">11.  Final Conclusion and Summary of this Capstone Project Work</a>
+    </td>
+    <td style="border: 1px solid #b3d8ff; padding: 10px;">
+      📌 <a href="#12-recommendations">12. Recommendations</a>
+    </td>
   </tr>
 </table>
 
@@ -141,7 +145,7 @@ This undermines trust, increases operational cost (e.g., via excessive SMS volum
 
 The above three statements defined the data preprocessing pipeline using scikit-learn, separating the treatment of numeric and categorical features before feeding them into a machine learning model. This three-step setup builds a robust preprocessing system to handle missing values, scaling, and encoding, keeping ML pipeline clean, reproducible, and production-ready.
   
-## 4. Modeling
+## 4. Modeling: Supervised and Unsupervised Models Used
 This Capstone project is modelled around Supervised and Unsupervised modeling algorithms of ML.
 
 🟨 **Supervised Models for this Project**
@@ -294,7 +298,7 @@ We also have a Beeswarm and Waterfall Plots for the same...
 - The prediction is also strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators.
 - This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
 
-## 10. What are the Faudulent Phone Numbers
+## 10. What are the Faudulent Phone Numbers?
 
 [The Fradulent Phone Numbers](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Data/FraudPhoneNumbers/Potential_Phone_Fraudulent_Nos.xlsx) are published here as a XLS file.
 
