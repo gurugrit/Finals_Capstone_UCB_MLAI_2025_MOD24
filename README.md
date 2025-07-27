@@ -200,7 +200,7 @@ From the above tables we can conclude that...
 
  ### 🟡Random Forest Confusion Matrix
 
-<src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="650"/>
+<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="650"/>
 
 ### 🟡XGBoost Confusion Matrix
 
