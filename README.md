@@ -17,7 +17,7 @@ The findings suggest that real-time detection models incorporating these insight
 
 🟡 **Module 16** About Finalizing the problem statement for the research project 
 
-🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily be used to analyze and build surrounding ML/AI Models which would help us in our predictions. 
+🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset analyzed in Module 20 is primarily used further in this Capstone submission to analyze and build surrounding ML/AI Models which would help us in our predictions. 
     [Modeule 20 Folder](https://github.com/gurugrit/Capstone_UCB_MLAI_2025)
 
 ### 🟢 The Key Phases Captured in this Report:
