@@ -179,8 +179,6 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 ➡️ **Bar Plots by Provider Distribution (Google, skype, Twilio) Type**
 <img width="1840" height="898" alt="image" src="https://github.com/user-attachments/assets/1a4e87d1-8db7-44e9-a6b7-5799675435da" />
 
-https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/EDS-Correlation_Heatmap.png
-
 ## 6. Supervised Model Validation Summaries and Conclusion on the Best Model
 
 ### 🟡a. Logistic Regression Confusion Matrix
