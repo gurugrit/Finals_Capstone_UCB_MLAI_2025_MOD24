@@ -189,7 +189,7 @@ indicating a high true positive rate and a low false positive rate; the larger t
 
 <img width="479" height="187" alt="image" src="https://github.com/user-attachments/assets/6a19717d-c1d0-4aaf-9fe5-d8b91a88c25d" />
 
-
+### 🟧Prediction Plots Before tuning
 [Isolation Forest Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Isolation%20Forest_Anomaly_Prediction_Cnt.png)
 
 ## 🟪Models After Tuning - ROC Curve
