@@ -128,11 +128,9 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 ➡️ **Bar Plots by Provider Distribution (Google, skype, Twilio) Type**
 <img width="1840" height="898" alt="image" src="https://github.com/user-attachments/assets/1a4e87d1-8db7-44e9-a6b7-5799675435da" />
 
-## 6. Baseline Model Validation Summary
+## 6. Model Validation Summaries
 
 ### Logistic Regression Confusion Matrix
-
-
 
 - True Negatives : 9743
 - False Positives: 71
