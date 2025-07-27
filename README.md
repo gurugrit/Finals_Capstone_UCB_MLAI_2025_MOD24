@@ -100,9 +100,10 @@ The original Dataset had a million rows. For keeping the Data size resonable for
 
 The Github place holder for this Project(Module-20) is 🟨 https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24 🟨
 
-Folder Structure Snapshot:
+####Folder Structure Snapshot:
 
-<img width="337" height="191" alt="image" src="https://github.com/user-attachments/assets/341a79ba-ea8f-4c8f-9841-7d8ad278bf6f" />
+<img width="556" height="342" alt="image" src="https://github.com/user-attachments/assets/e0db9353-5401-493e-b9b4-f897029afe4a" />
+
 
 # 🟩 Phases of this Project
 ## 1. Business Understanding and Objective
