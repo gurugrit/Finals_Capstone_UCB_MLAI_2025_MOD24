@@ -87,7 +87,7 @@ The organization of the Folder structure in Git is as depicted below in the File
 
 The original Dataset had a million rows. For keeping the Data size resonable for processing and based on the machine speeds and processing times involved the data size is curtailed to 50K and has 20 Columns.
 
-# How is the project work and deliverables being measured? - Measurement Criteria Table As Below for Module-20 Capstone
+# Measurement Criteria Table As Below for the Module-24 Final Capstone
 <img width="799" height="690" alt="image" src="https://github.com/user-attachments/assets/95c7936e-46f9-4cda-a077-79553ffc84ea" />
 
 
