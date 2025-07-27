@@ -130,7 +130,7 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 
 https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/EDS-Correlation_Heatmap.png
 
-## 6. Model Validation Summaries
+## 6. Supervised Model Validation Summaries and Conclusion on the Best Model
 
 ### 🟡Logistic Regression Confusion Matrix
 
@@ -183,8 +183,18 @@ indicating a high true positive rate and a low false positive rate; the larger t
 
 <img width="362" height="146" alt="image" src="https://github.com/user-attachments/assets/8c3d02e5-dd3f-4f98-b57f-a168f4f5c110" />
 
+## 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model
+## 🟪Models Before Tuning - ROC Curve
+<img width="1526" height="904" alt="image" src="https://github.com/user-attachments/assets/e89ffd64-37e4-4abd-ac64-ae1d3098e0b9" />
 
+<img width="479" height="187" alt="image" src="https://github.com/user-attachments/assets/6a19717d-c1d0-4aaf-9fe5-d8b91a88c25d" />
 
+## 🟪Models After Tuning - ROC Curve
+This ROC curve plot shows how well different unsupervised anomaly detection models perform after hyperparameter tuning. The curves compare models by plotting their True Positive Rate (TPR) vs. False Positive Rate (FPR), and the Area Under the Curve (AUC) metric summarizes their corresponding effectiveness.
+<img width="1232" height="717" alt="image" src="https://github.com/user-attachments/assets/b5ec806f-849c-47aa-95b5-b2ef1a593ba2" />
+
+## 🔍The Comparisons...
+<img width="567" height="169" alt="image" src="https://github.com/user-attachments/assets/c6cbb597-1d27-42cd-b13e-499edc0a2c34" />
 
 
 
