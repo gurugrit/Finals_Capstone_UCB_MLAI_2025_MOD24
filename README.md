@@ -188,7 +188,7 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 
 ### 🟡a. Logistic Regression Confusion Matrix
 
-Reading the table...and repeating the same for the rest of the Models below from (b) to (f)
+Reading the table as below and repeating the same for the rest of the Models b. through f.
 
 - True Negatives : 9743
 - False Positives: 71
