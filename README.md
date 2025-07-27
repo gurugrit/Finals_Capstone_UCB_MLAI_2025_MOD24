@@ -223,3 +223,16 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
    7. [Fraud Rate By Day of Week](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Fraud_Rate_By_DayOfWk.png)
    8. [Fraud Rate By Hour of Day](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Fraud_Rate_By_HrOfDay.png)
 
+## 9. SHAP Plots
+
+<img width="1766" height="916" alt="image" src="https://github.com/user-attachments/assets/6aaed138-32c9-4ab7-855d-1c82dffb55ba" />
+This SHAP (SHapley Additive exPlanations) bar plot shows the average feature importance across the dataset for chosen models. It ranks features by their mean absolute SHAP values, which reflects their average contribution to the model’s output, now this is plotted regardless of direction (positive or negative).
+The below table summarizes the Top Contributing Features from our Dataset
+<img width="641" height="290" alt="image" src="https://github.com/user-attachments/assets/66a47e82-d680-43c7-8165-2150d1b84dd9" />
+
+We also have a Beeswarm Plot for the same...
+1. [BeeSwarm Plot Impact on Model Output](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Supervised/SHAP_beeswarm_plot.png)
+2. [WaterFall Plot](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Supervised/SHAP_waterfall_plot.png)
+   <img width="541" height="348" alt="image" src="https://github.com/user-attachments/assets/cdd8e9c3-8708-45c9-bcfc-2e2fb5b99554" />
+   - 🕳️ The prediction is strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators. This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
+
