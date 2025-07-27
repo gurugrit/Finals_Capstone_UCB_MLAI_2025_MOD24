@@ -291,7 +291,7 @@ We also have a Beeswarm and Waterfall Plots for the same...
 
 ## 10. What are the Faudulent Phone Numbers?
 
-[Output Data File Location: The Fradulent Phone Numbers](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Data/FraudPhoneNumbers/Potential_Phone_Fraudulent_Nos.xlsx) are published here as a XLS file.
+[Output Data File Location: The Fradulent Phone Numbers](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Data/FraudPhoneNumbers/Potential_Phone_Fraudulent_Nos.xlsx) is published here as a XLS file.
 
 
 ## 11. Final Conclusion and Summary of this Capstone Project Work
