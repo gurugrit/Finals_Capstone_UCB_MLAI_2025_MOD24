@@ -230,11 +230,14 @@ This SHAP (SHapley Additive exPlanations) bar plot shows the average feature imp
 The below table summarizes the Top Contributing Features from our Dataset
 <img width="641" height="290" alt="image" src="https://github.com/user-attachments/assets/66a47e82-d680-43c7-8165-2150d1b84dd9" />
 
-We also have a Beeswarm Plot for the same...
+We also have a Beeswarm and Waterfall Plots for the same...
 1. [BeeSwarm Plot Impact on Model Output](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Supervised/SHAP_beeswarm_plot.png)
 2. [WaterFall Plot](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Supervised/SHAP_waterfall_plot.png)
    
    <img width="541" height="348" alt="image" src="https://github.com/user-attachments/assets/cdd8e9c3-8708-45c9-bcfc-2e2fb5b99554" />
    
-📌From the above table : The model strongly predicted class 0 (non-fraud), driven by many risk-related signals, especially the number of accounts tied to the phone number and SMS behavior. The prediction is also strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators. This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
+📌From the above table : 
+- The model strongly predicted class 0 (non-fraud), driven by many risk-related signals, especially the number of accounts tied to the phone number and SMS behavior.
+- The prediction is also strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators.
+- This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
 
