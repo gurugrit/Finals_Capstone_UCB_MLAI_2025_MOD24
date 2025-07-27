@@ -188,17 +188,13 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 
 ### 🟡a. Logistic Regression Confusion Matrix
 
-Reading the table as below and repeating the same for the rest of the Models b. through f.
+Reading the below TN, FP, FN and TP values for Logistic Regression Confusion matrix we can repeat the same readouts for the rest of the Models b. through f.
 
-- True Negatives : 9743
-- False Positives: 71
-- False Negatives: 100
-- True Positives : 5086
+- True Negatives(TN) : 9743
+- False Positives(FP): 71
+- False Negatives(FN): 100
+- True Positives(TP) : 5086
 
-<img src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" alt="image" width="550"/>
-
-<img src="https://github.com/user-attachments/assets/511dfea3-8bba-49b3-b9ea-dc3976077dc4" alt="image" width="550"/>
-    
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" alt="image1" width="45%" style="display:inline-block;"/>
   <img src="https://github.com/user-attachments/assets/511dfea3-8bba-49b3-b9ea-dc3976077dc4" alt="image2" width="45%" style="display:inline-block;"/>
@@ -212,7 +208,16 @@ From the above table we can conclude that...
 
  ### 🟡b. Random Forest Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="550"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image1" width="45%" style="display:inline-block;"/>
+<img src="https://github.com/user-attachments/assets/806f865a-1402-4eff-a787-fda1c4f8707c" alt="image1" width="45%" style="display:inline-block;"/>
+</p>
+
+- The model achieved perfect accuracy, precision, recall, and F1-scores (1.00) across both classes
+- Exceptionally balanced performance between class 0 (non-fraud) and class 1 (fraud), with no observed bias
+- No false positives or false negatives on the training set — the model classified all samples correctly
+- The dataset is likely very well-separated in feature space, allowing Random Forest to fit it flawlessly
+- However, such perfect scores on training data may also indicate potential overfitting, especially if test performance is lower
 
 ### 🟡c. XGBoost Confusion Matrix
 
