@@ -1,5 +1,5 @@
 # Berkeley Professional Certificate in ML and AI : 2025 Final Capstone Project Part 2 : Module-24
-### Project On: Detection And Prevention of Fradulent Phone Numbers
+## Project On: Detection And Prevention of Fradulent Phone Numbers
 
 ### 🟢 Executive summary
 
