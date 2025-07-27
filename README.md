@@ -80,11 +80,13 @@ This undermines trust, increases operational cost (e.g., via excessive SMS volum
 
 ## 3. Data Preparation
 - We dropped 'user_id', 'email', 'phone_number', 'browser_fingerprint', 'ip_address'
-- The Data File when observed did not contain any blanks or other irrelevant data which needed specific substitutions or transformations. However we did define...
+- The Data File when observed did not contain any blanks or other irrelevant data which needed larger specific substitutions or transformations. However we did define...
+  
 🔹Pipeline SimpleImputer - StandardScalar
 🔹Pipeline SimpleImputer - OneHotEncoder
 🔹ColumnTransformer
-  The above three statements defined the data preprocessing pipeline using scikit-learn, separating the treatment of numeric and categorical features before feeding them into a machine learning model. This three-step setup builds a robust preprocessing system to handle missing values, scaling, and encoding, keeping ML pipeline clean, reproducible, and production-ready.
+
+The above three statements defined the data preprocessing pipeline using scikit-learn, separating the treatment of numeric and categorical features before feeding them into a machine learning model. This three-step setup builds a robust preprocessing system to handle missing values, scaling, and encoding, keeping ML pipeline clean, reproducible, and production-ready.
   
 ## 4. Modeling
 This Capstone project is modelled around Supervised and Unsupervised modeling algorithms of ML.
