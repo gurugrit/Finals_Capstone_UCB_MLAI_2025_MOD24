@@ -87,11 +87,11 @@ The organization of the Folder structure in Git is as depicted below in the File
 
 The original Dataset had a million rows. For keeping the Data size resonable for processing and based on the machine speeds and processing times involved the data size is curtailed to 50K and has 20 Columns.
 
-# Measurement Criteria Table As Below for the Module-24 Final Capstone
+# 🟩 Measurement Criteria Table As Below for the Module-24 Final Capstone
 <img width="799" height="690" alt="image" src="https://github.com/user-attachments/assets/95c7936e-46f9-4cda-a077-79553ffc84ea" />
 
 
-# Note about Project Folder, Files, and Dataset...
+# 🟩 Note about Project Folder, Files, and Dataset...
 
 -	The 🟢Code Folder contains the Jupyter File. The executed code itself has comments captured and with related Term definitions at places and outputs in the uploaded Jupyter file. 
 - The 🟢Data Folder contains both the Input data file at the root, sourced for processing and modeling. The Data folder also contains the subfolder named "FraudPhoneNumber" containing the post analysis data of
@@ -104,7 +104,7 @@ Folder Structure Snapshot:
 
 <img width="430" height="264" alt="image" src="https://github.com/user-attachments/assets/b3cf96bd-8e84-4472-bc40-1f082799a747" />
 
-# Phases of this Project
+# 🟩 Phases of this Project
 ## 1. Business Understanding and Objective
 Organizations that rely on phone numbers for identity verification and SMS-based systems (e.g., one-time passwords, referral programs, financial alerts) are increasingly targeted by fraudsters using fake, virtual, or reused phone numbers. These malicious actors exploit identity systems to:
 
