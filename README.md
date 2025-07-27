@@ -130,7 +130,7 @@ This Capstone project is modelled around Supervised and Unsupervised modeling al
 
 ## 6. Model Validation Summaries
 
-🟡### Logistic Regression Confusion Matrix
+### 🟡Logistic Regression Confusion Matrix
 
 - True Negatives : 9743
 - False Positives: 71
@@ -145,23 +145,23 @@ From the above tables we can conclude that...
 - Very few false positives/negatives.
 - The dataset is also likely well-separated.
 
-🟡 ### Random Forest Confusion Matrix
+ ### 🟡Random Forest Confusion Matrix
 
 <img width="1179" height="902" alt="image" src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" />
 
-🟡 ### XGBoost Confusion Matrix
+### 🟡XGBoost Confusion Matrix
 
 <img width="1181" height="907" alt="image" src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" />
 
-🟡 ### LightGBM Confusion Matrix
+### 🟡LightGBM Confusion Matrix
 
 <img width="1182" height="902" alt="image" src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" />
 
-🟡 ### KNN Confusion Matrix
+### 🟡KNN Confusion Matrix
 
 <img width="1170" height="899" alt="image" src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" />
 
-🟡 ### Naive Bayes Confusion Matrix
+### 🟡Naive Bayes Confusion Matrix
 
 <img width="1183" height="906" alt="image" src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" />
 
