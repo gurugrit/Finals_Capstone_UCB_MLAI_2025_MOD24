@@ -236,5 +236,5 @@ We also have a Beeswarm Plot for the same...
    
    <img width="541" height="348" alt="image" src="https://github.com/user-attachments/assets/cdd8e9c3-8708-45c9-bcfc-2e2fb5b99554" />
    
-   - 🕳️ From the above table : The model strongly predicted class 0 (non-fraud), driven by many risk-related signals, especially the number of accounts tied to the phone number and SMS behavior. The prediction is also strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators. This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
+📌From the above table : The model strongly predicted class 0 (non-fraud), driven by many risk-related signals, especially the number of accounts tied to the phone number and SMS behavior. The prediction is also strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators. This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
 
