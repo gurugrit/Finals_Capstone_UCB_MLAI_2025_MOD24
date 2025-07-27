@@ -112,7 +112,7 @@ Organizations that rely on phone numbers for identity verification and SMS-based
 - ✅ Abuse promotional or referral schemes
 - ✅ Automate mass registrations using VOIP or synthetic identities
 - ✅ Launder accounts for spam, phishing, or monetization
-- 
+
 This undermines trust, increases operational cost (e.g., via excessive SMS volume), and introduces risk to both users and the business.
 
 **Business Objective**: The goal of this project is to detect and prevent fraudulent phone numbers at the point of user registration or profile update within the identity access system. By doing so, we aim to:
