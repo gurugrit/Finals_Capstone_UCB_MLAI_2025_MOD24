@@ -90,6 +90,7 @@ The above three statements defined the data preprocessing pipeline using scikit-
   
 ## 4. Modeling
 This Capstone project is modelled around Supervised and Unsupervised modeling algorithms of ML.
+
 🟨 **Supervised Models for this Project**
 - 🕳️ Logistic Regression (Baselined around this)
 - 🕳️ Random Forest
