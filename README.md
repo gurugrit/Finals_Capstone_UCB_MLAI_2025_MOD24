@@ -21,14 +21,24 @@ The findings suggest that real-time detection models incorporating these insight
 🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily be used to analyze and build surrounding ML/AI Models which would help us in our predictions.        https://github.com/gurugrit/Capstone_UCB_MLAI_2025
 
 ### 🟢 The Numbered Sections of these report
-- 📌 1. Business Understanding and Objective  - 📌 2. Data Understanding
-📌 3. Data Preparation
-📌 4. Modeling : Supervised and Unsupervised Models Used 
-📌 5. Exploratory Data Analysis
-- 📌
-📌
-📌
+- 📌 1. Business Understanding and Objective  
+- 📌 2. Data Understanding
+- 📌 3. Data Preparation
+- 📌 4. Modeling : Supervised and Unsupervised Models Used
+- 📌 5. Exploratory Data Analysis
+- 📌 6. Supervised Model Validation Summaries and Conclusion on the Best Model
+📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model 📌 8. Plotting the Fradulent Entities (Visuals are Self-Explanatory) 📌 9. SHAP Plots 📌 10. Fraudulant Phone Report 📌 11. Final Conclusion and Summary of this Capstone Project Work  📌 12. Recommendations
 
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <td>📌 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model</td>
+    <td>📌 8. Plotting the Fraudulent Entities (Visuals are Self-Explanatory)</td>
+  </tr>
+  <tr>
+    <td>📌 9. SHAP-based Feature Insights</td>
+    <td>📌 10. Recommendations & Future Enhancements</td>
+  </tr>
+</table>
 # The Dataset
 
 The Dataset used for this project is from my own Organization. The data is Anonymized and De-identified though these words are sometimes used interchangeably. External users who are customers and partners register onto our organizations prime site seeking in IT NetWorking Solutions and Products. They typicall go thorugh a process of registration and there after come back to update their personal profile data through the profile pages after account login. Notifications during this process are primarily sent via Phones for validations. Some of the phone numbers are fraudulent and the users behind have no real business with our organization. Rouge users or Organizations accross geo locations exploit the SMS-Based systems for monetary gain and fraud. 
@@ -193,22 +203,22 @@ indicating a high true positive rate and a low false positive rate; the larger t
 <img width="362" height="146" alt="image" src="https://github.com/user-attachments/assets/8c3d02e5-dd3f-4f98-b57f-a168f4f5c110" />
 
 ## 7. Unsupervised Model Validation Summaries and Conclusion on the Best Model
-## 🟪Models Before Tuning - ROC Curve and Anomaly Distributions
+### 🟪Models Before Tuning - ROC Curve and Anomaly Distributions
 <img width="1526" height="904" alt="image" src="https://github.com/user-attachments/assets/e89ffd64-37e4-4abd-ac64-ae1d3098e0b9" />
 
 <img width="479" height="187" alt="image" src="https://github.com/user-attachments/assets/6a19717d-c1d0-4aaf-9fe5-d8b91a88c25d" />
 
-### 🟧Prediction Plots Before tuning
+#### 🟧Prediction Plots Before tuning
    1. [Isolation Forest Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Isolation%20Forest_Anomaly_Prediction_Cnt.png) 
    2. [One Class SVM Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/One-Class%20SVM_Anomaly_Prediction_Cnt.png)
    3. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF_Anomaly_Prediction_Cnt.png)
    4. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Prediction_Cnt.png)
     
-## 🟪Models After Tuning - ROC Curve
+### 🟪Models After Tuning - ROC Curve
 This ROC curve plot shows how well different unsupervised anomaly detection models perform after hyperparameter tuning. The curves compare models by plotting their True Positive Rate (TPR) vs. False Positive Rate (FPR), and the Area Under the Curve (AUC) metric summarizes their corresponding effectiveness.
 <img width="1232" height="717" alt="image" src="https://github.com/user-attachments/assets/b5ec806f-849c-47aa-95b5-b2ef1a593ba2" />
 
-## 🔍Before and After Tuning comparisons...
+#### 🔍Before and After Tuning comparisons...
   <img width="567" height="169" alt="image" src="https://github.com/user-attachments/assets/c6cbb597-1d27-42cd-b13e-499edc0a2c34" />
 
 - ✅Isolation Forest remains the best model, improving its AUC to 0.83. It continues to show strong anomaly detection performance.
@@ -216,7 +226,7 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
 - ✅LOF (Local Outlier Factor) fails to improve and remains near random classification (AUC ≈ 0.5). It likely needs a re-evaluation or different feature engineering.
 - ✅KMeans continues to show stable performance with AUC = 0.80, solid for a clustering-based method without much tuning gain.
 
-### ⬜Prediction Plots After Tuning (Few)
+#### ⬜Prediction Plots After Tuning (Few)
 
    1. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF%20Anomaly_Pred.png)
    2. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Pred.png)
@@ -258,4 +268,5 @@ We also have a Beeswarm and Waterfall Plots for the same...
 ## 11. Final Conclusion and Summary of this Capstone Project Work
 This project aimed to detect and prevent fraudulent phone numbers during user registration and profile updates in identity access systems that rely on SMS-based verification. The dataset contained several crucial parameters for evaluation and hence the combination of varoius visual representations. The Data and graphs cover behavioral, geographical, and technical metadata. We applied both supervised and unsupervised machine learning models to uncover fraudulent patterns. Models such as XGBoost and Random Forest demonstrated high accuracy and recall in flagging fraud, with SHAP analysis revealing key indicators like VOIP usage, SMS frequency, and geographic-IP mismatches. An unsupervised Isolation Forest approach identified additional anomalies, capturing novel fraud types. Combined, these methods enabled a high-confidence set of suspicious phone numbers. Visualization through heatmaps, KDE plots, and SHAP values helped interpret fraud subtypes such as VOIP spammers and rouge identities. The final ensemble highlighted the value of both probabilistic scoring and anomaly detection. 
 
+## 12. Recommendations
 ✅ Recommendations include implementing stricter monitoring for VOIP numbers, flagging geographic inconsistencies, and introducing real-time fraud scoring. This project validates a hybrid ML-driven fraud prevention approach that can adapt as more threats evolve.
