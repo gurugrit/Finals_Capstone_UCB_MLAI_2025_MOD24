@@ -95,7 +95,7 @@ The original Dataset had a million rows. For keeping the Data size resonable for
 -	The 🟢Code Folder contains the Jupyter File. The executed code itself has comments captured and with related Term definitions at places and outputs in the uploaded Jupyter file. 
 - The 🟢Data Folder contains both the Input data file at the root, sourced for processing and modeling. The Data folder also contains the subfolder named "FraudPhoneNumber" containing the post analysis data of
   fradulent phone numbers found after the Jupyter file is executed in its entirety.
-- The 🟢GraphPlots folder contains 2 SubFolders - The root folder which comntains all the plots related with EDS (Exploratory Data Analysis) and two subfolders : ⚪Supervised and ⚪Unsupervised. These subfolders will contain all the graphs for the respective models adopted in the project.
+- The 🟢GraphPlots folder - The root folder contains all the plots related with EDS (Exploratory Data Analysis) and two subfolders : ⚪Supervised and ⚪Unsupervised. These subfolders will contain all the graphs for the respective models adopted in the project.
 
 The Github place holder for this Project(Module-20) is 🟨 https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24 🟨
 
