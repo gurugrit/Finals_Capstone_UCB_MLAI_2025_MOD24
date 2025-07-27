@@ -236,8 +236,17 @@ We also have a Beeswarm and Waterfall Plots for the same...
    
    <img width="541" height="348" alt="image" src="https://github.com/user-attachments/assets/cdd8e9c3-8708-45c9-bcfc-2e2fb5b99554" />
    
-📌<u>From the above table :</u>
+📌From the above table :
 - The model strongly predicted class 0 (non-fraud), driven by many risk-related signals, especially the number of accounts tied to the phone number and SMS behavior.
 - The prediction is also strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators.
 - This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
 
+## 10. What are the Faudulent Phone Numbers
+
+[The Fradulent Phone Numbers](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Data/FraudPhoneNumbers/Potential_Phone_Fraudulent_Nos.xlsx) are published here as a XLS file.
+
+
+## 11. Final Conclusion and Summary of this Capstone Project Work
+This project aimed to detect and prevent fraudulent phone numbers during user registration and profile updates in identity access systems that rely on SMS-based verification. The dataset contained several crucial parameters for evaluation and hence the combination of varoius visual representations. The Data and graphs cover behavioral, geographical, and technical metadata. We applied both supervised and unsupervised machine learning models to uncover fraudulent patterns. Models such as XGBoost and Random Forest demonstrated high accuracy and recall in flagging fraud, with SHAP analysis revealing key indicators like VOIP usage, SMS frequency, and geographic-IP mismatches. An unsupervised Isolation Forest approach identified additional anomalies, capturing novel fraud types. Combined, these methods enabled a high-confidence set of suspicious phone numbers. Visualization through heatmaps, KDE plots, and SHAP values helped interpret fraud subtypes such as VOIP spammers and rouge identities. The final ensemble highlighted the value of both probabilistic scoring and anomaly detection. 
+
+✅ Recommendations include implementing stricter monitoring for VOIP numbers, flagging geographic inconsistencies, and introducing real-time fraud scoring. This project validates a hybrid ML-driven fraud prevention approach that can adapt as more threats evolve.
