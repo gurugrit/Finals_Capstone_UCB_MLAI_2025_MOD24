@@ -222,8 +222,10 @@ From the above table we can conclude that...
 
 ### 🟡c. XGBoost Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" alt="image" width="550"/>
-<img src="https://github.com/user-attachments/assets/6173ac9a-2b33-415b-9f65-52912b915d0f" alt="image" width="550"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e"  alt="image1" width="45%" style="display:inline-block;"/>
+<img src="https://github.com/user-attachments/assets/6173ac9a-2b33-415b-9f65-52912b915d0f"  alt="image1" width="45%" style="display:inline-block;"/>
+</p>
 
 From the above table we can conclude that...
 - Perfect performance across all metrics and both classes
@@ -233,22 +235,42 @@ From the above table we can conclude that...
 
 ### 🟡d. LightGBM Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" alt="image" width="550"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2"  alt="image1" width="45%" style="display:inline-block;"/>
+<img src=src="https://github.com/user-attachments/assets/f8fcd9b5-e5ea-485f-92a7-d68974386153"  alt="image1" width="45%" style="display:inline-block;"/>
+</p>
 
 From the above table we can conclude that...
-
+- Identical to XGBoost in training accuracy and class balance
+- Highly effective model fits training data perfectly
+- Possible overfitting — test data validation primarily is essential
+  
 ### 🟡e. KNN Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" alt="image" width="550"/>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d"  alt="image1" width="45%" style="display:inline-block;"/>
+<img src=src="https://github.com/user-attachments/assets/50e50d1e-1aa1-4eb1-85c6-aeb7322404b1"  alt="image1" width="45%" style="display:inline-block;"/>
+</p>
 
 From the above table we can conclude that...
-
+- Nearly perfect performance, especially on class 1 (fraud)
+- A few false negatives or false positives likely in class 0
+- Still a very strong classifier, with minimal number of misclassifications
+  
 ### 🟡f. Naive Bayes Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" alt="image" width="550"/>
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" alt="image1" width="45%" style="display:inline-block;"/>
+<img src=src="https://github.com/user-attachments/assets/ca899df5-b70e-43c3-b15e-67953a00838c" alt="image1" width="45%" style="display:inline-block;"/>    
+</p>
 
 From the above table we can conclude that...
-
+- Strong baseline model, but weaker than KNN models
+- Higher false positives in class 1 (fraud), as seen by lower precision
+- Still good recall for detecting fraud
+- Naive Bayes assumptions though may not fully capture feature relationships
+  
 ## ROC Curve Model Comparisons:
 The overall performance of a classifier, summarized over all possible classification thresholds, is given by the area under the ROC curve. An ideal ROC curve will hug the top left corner, 
 indicating a high true positive rate and a low false positive rate; the larger the AUC( Area Under) the better the classifier.
