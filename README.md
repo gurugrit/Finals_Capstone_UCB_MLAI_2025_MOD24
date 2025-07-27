@@ -233,6 +233,7 @@ The below table summarizes the Top Contributing Features from our Dataset
 We also have a Beeswarm Plot for the same...
 1. [BeeSwarm Plot Impact on Model Output](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Supervised/SHAP_beeswarm_plot.png)
 2. [WaterFall Plot](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Supervised/SHAP_waterfall_plot.png)
+   
    <img width="541" height="348" alt="image" src="https://github.com/user-attachments/assets/cdd8e9c3-8708-45c9-bcfc-2e2fb5b99554" />
-   - 🕳️ The prediction is strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators. This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
+   - 🕳️ From the above table : The prediction is strongly negative (likely flagged as fraud) due to cumulative effects of several high-risk indicators. This plot is excellent for explaining decisions to my stakeholders within the Organization, especially for flagged users or fraud reviews.
 
