@@ -173,14 +173,18 @@ indicating a high true positive rate and a low false positive rate; the larger t
 
 <img width="1537" height="908" alt="image" src="https://github.com/user-attachments/assets/d0f45b9f-577b-488d-b648-db9b6f234ac4" />
 
-## Feature Importance - Model Comparisons:
+## 🟨Feature Importance - Model Comparisons:
 <img width="1911" height="753" alt="image" src="https://github.com/user-attachments/assets/bd8f2bb4-b325-4680-8982-64fd87b8ac58" />
 
-## Model Performance Plot
+## 🟨Model Performance Plot
 <img width="1537" height="903" alt="image" src="https://github.com/user-attachments/assets/a5132b5c-9124-436d-8f85-01455a87a6c1" />
 
+## ✅ Conclusion on the Best Model
 
-## 🟢 Further work Related with this Project Continues with Module 24 
+<img width="362" height="146" alt="image" src="https://github.com/user-attachments/assets/8c3d02e5-dd3f-4f98-b57f-a168f4f5c110" />
+
+
+
 
 
 
