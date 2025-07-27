@@ -190,7 +190,10 @@ indicating a high true positive rate and a low false positive rate; the larger t
 <img width="479" height="187" alt="image" src="https://github.com/user-attachments/assets/6a19717d-c1d0-4aaf-9fe5-d8b91a88c25d" />
 
 ### 🟧Prediction Plots Before tuning
-[Isolation Forest Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Isolation%20Forest_Anomaly_Prediction_Cnt.png)
+    1. [Isolation Forest Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Isolation%20Forest_Anomaly_Prediction_Cnt.png)
+    2. [One Class SVM Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/One-Class%20SVM_Anomaly_Prediction_Cnt.png)
+    3. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF%20Anomaly_Pred.png)
+    4. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Pred.png)
 
 ## 🟪Models After Tuning - ROC Curve
 This ROC curve plot shows how well different unsupervised anomaly detection models perform after hyperparameter tuning. The curves compare models by plotting their True Positive Rate (TPR) vs. False Positive Rate (FPR), and the Area Under the Curve (AUC) metric summarizes their corresponding effectiveness.
