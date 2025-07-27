@@ -207,8 +207,19 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
 - ✅LOF (Local Outlier Factor) fails to improve and remains near random classification (AUC ≈ 0.5). It likely needs a re-evaluation or different feature engineering.
 - ✅KMeans continues to show stable performance with AUC = 0.80, solid for a clustering-based method without much tuning gain.
 
-### ⬜Prediction Plots After Tuning
+### ⬜Prediction Plots After Tuning (Few)
 
    1. [LOF Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/LOF%20Anomaly_Pred.png)
    2. [KMeans Anomaly Prediction](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/KMeans_Anomaly_Pred.png)
+
+## 8. Plotting the Fradulent Entities (Visuals are Self-Explanatory)
+
+   1. [Top 10 GeoRegions from where the Most Fraudulent Registrations Happen](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Top_10_Geo_With_Most_Fraudulent_Registration.png)
+   2. [Top 10 VOIP Providers who are used in Fraudulant Registrations](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Top_VOIP_.png)
+   3. [Top 10 VOIP and GoeRegions who are Faudulant - A combination](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Top_10_VOIP_Provider_GeoRegio_FraudCombo.png)
+   4. [Top 10 GeoRegions of VOIP Based Fraud](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Top_Geo_Regions_Of_VOIP_Based_Fraud.png)
+   5. [Fraud Rate by GeoRegion and Devices used](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Fraud_Rate_By_Geo_And_Device.png)
+   6. [Percent Of Fraud Vs Legitimate Users By GeoRegion](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Percent_Of_Fraud_Vs_Legitimate_Users_By_GeoRegion.png)
+   7. [Fraud Rate By Day of Week](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Fraud_Rate_By_DayOfWk.png)
+   8. [Fraud Rate By Hour of Day](https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphPlots/Unsupervised/Fraud_Rate_By_HrOfDay.png)
 
