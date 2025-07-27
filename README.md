@@ -190,7 +190,7 @@ https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/GraphP
 - False Negatives: 100
 - True Positives : 5086
 
-<img width="1175" height="901" alt="image" src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" />
+<img src="https://github.com/user-attachments/assets/1b262224-3d34-477a-acf5-8a5660f71b47" alt="image" width="550"/>
 
 From the above tables we can conclude that...
 - Extremely high accuracy, precision, recall, and F1-scores.
@@ -200,23 +200,23 @@ From the above tables we can conclude that...
 
  ### 🟡Random Forest Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="450"/>
+<img src="https://github.com/user-attachments/assets/dce977b0-d8d1-47f2-8799-24e764a8e440" alt="image" width="550"/>
 
 ### 🟡XGBoost Confusion Matrix
 
-<img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" alt="image" width="450"/>
+<img src="https://github.com/user-attachments/assets/f3ced31d-ad09-49fe-a423-fad54fb5fe8e" alt="image" width="550"/>
 
 ### 🟡LightGBM Confusion Matrix
 
-<img width="1182" height="902" alt="image" src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" />
+<img src="https://github.com/user-attachments/assets/b4c54350-6545-4531-a657-e3d214f374d2" alt="image" width="550"/>
 
 ### 🟡KNN Confusion Matrix
 
-<img width="1170" height="899" alt="image" src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" />
+<img src="https://github.com/user-attachments/assets/3b1adffb-8547-44db-9795-92ab3cc3c97d" alt="image" width="550"/>
 
 ### 🟡Naive Bayes Confusion Matrix
 
-<img width="1183" height="906" alt="image" src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" />
+<img src="https://github.com/user-attachments/assets/e234e891-cce5-470b-82b5-bb0ff99dc2ef" alt="image" width="550"/>
 
 ## ROC Curve Model Comparisons:
 The overall performance of a classifier, summarized over all possible classification thresholds, is given by the area under the ROC curve. An ideal ROC curve will hug the top left corner, 
