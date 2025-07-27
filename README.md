@@ -12,10 +12,10 @@ Additional visualization techniques revealed that fraud was heavily concentrated
 
 The findings suggest that real-time detection models incorporating these insights can proactively block or verify high-risk registrations. Business recommendations include implementing dynamic fraud scoring during signup, flagging risky phone/IP patterns, and tightening SMS limits for VOIP numbers. This model-driven, data-informed approach provides a scalable foundation to enhance IAS security and defend against evolving fraud schemes.
 
-#### Capstone Reference from the prior modules in this course work...
-🟡 **Module 6**  Drafting the Capstone Project Statment
+#### The build up and conclusion to this Final Capstone project submission has referfences from the work carried out from the prior modules in this course work...
+🟡 **Module 6**  Was about Drafting the Capstone Project Statment
 
-🟡 **Module 16** About Finalizing the problem statement for the research project. 
+🟡 **Module 16** About Finalizing the problem statement for the research project 
 
 🟡 **Module 20** Delved into the Dataset,  its understanding and building baseline model for Capstone Project. This dataset with this module will be primarily be used to analyze and build surrounding ML/AI Models which would help us in our predictions. 
     [Modeule 20 Folder](https://github.com/gurugrit/Capstone_UCB_MLAI_2025)
