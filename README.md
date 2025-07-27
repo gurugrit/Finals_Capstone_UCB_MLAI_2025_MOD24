@@ -2,6 +2,7 @@
 <u>Project On</u>
 :## Project On: Detection And Prevention of Fradulent Phone Numbers
 
+<p align="center"><strong><u>Project On</u>: Detection And Prevention of Fraudulent Phone Numbers</strong></p>
 ### 🟢 Executive summary
 
 This project focuses on identifying and preventing fraudulent phone numbers used during user registration or profile updates in enterprise Identity Access Systems (IAS), particularly targeting abuse of SMS-based authentication and verification mechanisms. Fraudsters exploit these systems using tactics such as VOIP numbers, synthetic identities, excessive OTP requests, and geolocation spoofing for monetary gain or unauthorized access. We are using a De-Identified dataset of 50,000 records with user metadata, phone behavior, registration patterns, and verification attributes. Please note this is a curtailed metadata considering the processing speed of the machine being used.
