@@ -213,7 +213,7 @@ From the above table we can conclude that...
 <img src="https://github.com/user-attachments/assets/806f865a-1402-4eff-a787-fda1c4f8707c" alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
-From the above table we can conclude that...
+**_From the above table we can conclude that..._**
 - Perfect accuracy, precision, recall, and F1-scores (1.00) across both classes
 - Exceptionally balanced performance between class 0 (non-fraud) and class 1 (fraud) no observed bias
 - No false positives or false negatives on the training set and  the model classified all samples correctly
@@ -227,7 +227,7 @@ From the above table we can conclude that...
 <img src="https://github.com/user-attachments/assets/6173ac9a-2b33-415b-9f65-52912b915d0f"  alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
-From the above table we can conclude that...
+**_From the above table we can conclude that..._**
 - Perfect performance across all metrics and both classes
 - Indicates zero classification errors on training data
 - Reflects excellent class separability
@@ -240,7 +240,7 @@ From the above table we can conclude that...
 <img src=src="https://github.com/user-attachments/assets/f8fcd9b5-e5ea-485f-92a7-d68974386153"  alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
-From the above table we can conclude that...
+**_From the above table we can conclude that..._**
 - Identical to XGBoost in training accuracy and class balance
 - Highly effective model fits training data perfectly
 - Possible overfitting — test data validation primarily is essential
@@ -252,7 +252,7 @@ From the above table we can conclude that...
 <img src=src="https://github.com/user-attachments/assets/50e50d1e-1aa1-4eb1-85c6-aeb7322404b1"  alt="image1" width="45%" style="display:inline-block;"/>
 </p>
 
-From the above table we can conclude that...
+**_From the above table we can conclude that..._**
 - Nearly perfect performance, especially on class 1 (fraud)
 - A few false negatives or false positives likely in class 0
 - Still a very strong classifier, with minimal number of misclassifications
@@ -265,7 +265,7 @@ From the above table we can conclude that...
 <img src=src="https://github.com/user-attachments/assets/ca899df5-b70e-43c3-b15e-67953a00838c" alt="image1" width="45%" style="display:inline-block;"/>    
 </p>
 
-From the above table we can conclude that...
+**_From the above table we can conclude that..._**
 - Strong baseline model, but weaker than KNN models
 - Higher false positives in class 1 (fraud), as seen by lower precision
 - Still good recall for detecting fraud
