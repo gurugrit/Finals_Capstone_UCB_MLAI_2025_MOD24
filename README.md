@@ -76,7 +76,7 @@ The Dataset used for this project is from my own Organization. The data is Anony
 The Dataset used here is one such containing the listings of many users and their phone numbers now de-identified and anonymized. This is for keeping the confidentiality of the data from being spotted on the Organizational compliance radar.
 
 #### Imbalanced and Balanced Dataset. Do We Need to have Balanced Data?
-The dataset has 30-35% fraud – it’s not extremely imbalanced.
+The dataset has 30-35% fraudulent data – it’s not extremely imbalanced.
 Models like XGBoost and Random Forest handle class imbalance well (using scale_pos_weight).
 For model training (especially for SHAP, unsupervised learning, visualizations), having that kind of percetages of fraud gives:
 🔺Enough examples to learn patterns 🔺Better visual and statistical separation 🔺Richer evaluation of precision-recall trade-offs
