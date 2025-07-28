@@ -283,7 +283,7 @@ indicating a high true positive rate and a low false positive rate; the larger t
 ## 🟨Model Performance Plot
 <img width="1537" height="903" alt="image" src="https://github.com/user-attachments/assets/a5132b5c-9124-436d-8f85-01455a87a6c1" />
 
-## ✅ Conclusion on the Best Model
+## ✅ Conclusion on the Best Model (Supervised)
 
 <img width="362" height="146" alt="image" src="https://github.com/user-attachments/assets/8c3d02e5-dd3f-4f98-b57f-a168f4f5c110" />
 
@@ -305,6 +305,9 @@ This ROC curve plot shows how well different unsupervised anomaly detection mode
 
 #### 🔍Before and After Tuning comparisons...
   <img width="567" height="169" alt="image" src="https://github.com/user-attachments/assets/c6cbb597-1d27-42cd-b13e-499edc0a2c34" />
+
+## ✅ Conclusion on the Best Model (Unsupervised)
+
 
 - ✅Isolation Forest remains the best model, improving its AUC to 0.83. It continues to show strong anomaly detection performance.
 - ✅One-Class SVM benefits noticeably from tuning (AUC improved from 0.70 to 0.74), though still not outperforming the tree-based or clustering models.
