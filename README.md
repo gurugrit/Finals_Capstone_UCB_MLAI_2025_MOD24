@@ -92,7 +92,7 @@ The original Dataset had a million rows. For keeping the Data size resonable for
 
 # 🟩 Note about Project Folder, Files, and Dataset...
 
--	The 🟢Code Folder contains the Jupyter Python Notebook File. The executed code itself has comments captured and with related Term definitions at places and outputs in the uploaded Jupyter file. The python file has the exploratory data analysis (EDA), data cleaning and transformation, data visualization, statistical modeling, machine learning executed sections.
+-	The 🟢Code Folder contains the Jupyter Python Notebook File. The executed code itself has detailed headers and comments and with related Term definitions at places with outputs. The python file covers exploratory data analysis (EDA), data cleaning and transformation, data visualization, statistical modeling, machine learning executed sections.
 - The 🟢Data Folder contains both the Input data file at the root, sourced for processing and modeling. The Data folder also contains the subfolder named "FraudPhoneNumber" containing the post analysis data of
   fradulent phone numbers found after the Jupyter file is executed in its entirety.
 - The 🟢GraphPlots folder - The Root folder contains all the plots related with EDS (Exploratory Data Analysis). The two subfolders : ⚪Supervised and ⚪Unsupervised, these subfolders contains all the graphs for the respective models adopted in the project.
