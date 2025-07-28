@@ -4,7 +4,7 @@
 
 This project focuses on identifying and preventing fraudulent phone numbers used during user registration or profile updates in enterprise Identity Access Systems (IAS), particularly targeting abuse of SMS-based authentication and verification mechanisms. Fraudsters exploit these systems using tactics such as VOIP numbers, synthetic identities, excessive OTP requests, and geolocation spoofing for monetary gain or unauthorized access. For this final project I am using a De-Identified dataset of 50,000 records with user metadata, phone behavior, registration patterns, and verification attributes. Please note this is a curtailed metadata considering the processing speed of the machine being used and the time it takes for the models to execute.
 
-Using supervised machine learning I trained several models including Logistic Regression, Random Forest, XGBoost, and LightGBM. XGBoost delivered the best performance in terms of ROC-AUC, precision, and recall. SHAP analysis helped uncover key predictors such as the number of accounts tied to a phone number, OTP success rate, use of VOIP numbers, and IP-region mismatches. These features consistently correlated with fraudulent behavior.
+Using supervised machine learning several models were including Logistic Regression, Random Forest, XGBoost, and LightGBM. XGBoost delivered the best performance in terms of ROC-AUC, precision, and recall. SHAP analysis helped uncover key predictors such as the number of accounts tied to a phone number, OTP success rate, use of VOIP numbers, and IP-region mismatches. These features consistently correlated with fraudulent behavior.
 
 In parallel, unsupervised models like Isolation Forest and One-Class SVM were applied to identify anomalies without requiring fraud labels. Isolation Forest effectively surfaced suspicious users whose behaviors aligned with known fraud signatures. A combined strategy was adopted where high-confidence frauds were defined as those flagged by both supervised and unsupervised models.
 
@@ -129,8 +129,8 @@ This undermines trust, increases operational cost (e.g., via excessive SMS volum
 <img width="659" height="424" alt="image" src="https://github.com/user-attachments/assets/b8d97083-3a64-441b-8a1b-cab42bdc7771" />
 
 ## 3. Data Preparation
-- We dropped 'user_id', 'email', 'phone_number', 'browser_fingerprint', 'ip_address'
-- The Data File when observed did not contain any blanks or other irrelevant data which needed larger specific substitutions or transformations. However we did define...
+- Following columns were dropped 'user_id', 'email', 'phone_number', 'browser_fingerprint', 'ip_address'
+- The Data File when observed did not contain any blanks or other irrelevant data which needed larger specific substitutions or transformations. However the following were defined...
   
 🔹Pipeline SimpleImputer - StandardScalar
 🔹Pipeline SimpleImputer - OneHotEncoder
@@ -354,7 +354,7 @@ We also have a Beeswarm and Waterfall Plots for the same...
 
 
 ## 11. Final Conclusion and Summary of this Capstone Project Work
-This project aimed to detect and prevent fraudulent phone numbers during user registration and profile updates in identity access systems that rely on SMS-based verification. The dataset contained several crucial parameters for evaluation and hence the combination of varoius visual representations. The Data and graphs cover behavioral, geographical, and technical metadata. We applied both supervised and unsupervised machine learning models to uncover fraudulent patterns. Models such as XGBoost and Random Forest demonstrated high accuracy and recall in flagging fraud, with SHAP analysis revealing key indicators like VOIP usage, SMS frequency, and geographic-IP mismatches. An unsupervised Isolation Forest approach identified additional anomalies, capturing novel fraud types. Combined, these methods enabled a high-confidence set of suspicious phone numbers. Visualization through heatmaps, KDE plots, and SHAP values helped interpret fraud subtypes such as VOIP spammers and rouge identities. The final ensemble highlighted the value of both probabilistic scoring and anomaly detection. 
+This project aimed to detect and prevent fraudulent phone numbers during user registration and profile updates in identity access systems that rely on SMS-based verification. The dataset contained several crucial parameters for evaluation and hence the combination of varoius visual representations. The Data and graphs cover behavioral, geographical, and technical metadata. Both supervised and unsupervised machine learning models were applied to uncover fraudulent patterns. Models such as XGBoost and Random Forest demonstrated high accuracy and recall in flagging fraud, with SHAP analysis revealing key indicators like VOIP usage, SMS frequency, and geographic-IP mismatches. An unsupervised Isolation Forest approach identified additional anomalies, capturing novel fraud types. Combined, these methods enabled a high-confidence set of suspicious phone numbers. Visualization through heatmaps, KDE plots, and SHAP values helped interpret fraud subtypes such as VOIP spammers and rouge identities. The final ensemble highlighted the value of both probabilistic scoring and anomaly detection. 
 
 ## 12. Recommendations
 ✅ Recommendations include implementing stricter monitoring for VOIP numbers, flagging geographic inconsistencies, and introducing real-time fraud scoring. This project validates a hybrid ML-driven fraud prevention approach that can adapt as more threats evolve.
