@@ -94,7 +94,7 @@ The original Dataset had a million rows. For keeping the Data size resonable for
 
 -	The 🟢Code Folder contains the Jupyter Python Notebook File. The executed code itself has detailed headers and comments and with related Term definitions at places with outputs. The python file covers exploratory data analysis (EDA), data cleaning and transformation, data visualization, statistical modeling, machine learning executed sections. (https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Code/Phone_SMS_Fraud_Detection_Capstone2025UCB_MLAI.ipynb)
 - The 🟢Data Folder contains both the Input data file at the root, sourced for processing and modeling. The Data folder also contains the subfolder named "FraudPhoneNumber" containing the post analysis data of
-  fradulent phone numbers found after the Jupyter file is executed in its entirety. (https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/blob/main/Data/Fraud_PhoneAnSMS_Dataset.csv)
+  fradulent phone numbers found after the Jupyter file is executed in its entirety. (https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/tree/main/Data)
 - The 🟢GraphPlots folder - The Root folder contains all the plots related with EDS (Exploratory Data Analysis). The two subfolders : ⚪Supervised and ⚪Unsupervised, these subfolders contains all the graphs for the respective models adopted in the project. (https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24/tree/main/GraphPlots)
 
 The Github place holder for this Project(Module-20) is 🟨 https://github.com/gurugrit/Finals_Capstone_UCB_MLAI_2025_MOD24 🟨
